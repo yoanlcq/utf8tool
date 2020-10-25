@@ -7,6 +7,11 @@ This is mainly useful for preparing a list of characters to feed to a font packe
 
 All files read by the tool are assumed to be UTF-8 encoded. Output files are always UTF-8 encoded.
 
+# Downloading binaries
+
+Take a look at the [Releases](https://github.com/yoanlcq/utf8tool/releases/) page.  
+Currently, only Win64 binaries are provided.
+
 # In this repository
 
 The `results` directory contains some output files. This might actually be the only thing you need.  
