@@ -1,0 +1,10 @@
+[package]
+name = "utf8tool"
+version = "0.1.0"
+authors = ["yoanlcq <yoanlecoq.io@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glob = "0.3.0"

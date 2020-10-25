@@ -1,0 +1,11 @@
+# By the way, when a line starts with '#', the line is ignored by the tool, allowing you to add comments.
+output_file_path: basic_japanese_list_without_annotations.txt
+# The "range suffix" is a string appended to the list of chars in a range. By default it is "\n\n", but by setting "none" we explicitly disable it.
+range_suffix: none
+# Disable the annotations preceding each list of chars.
+range_headers: none
+# Disable the "Overall stats" annotation at the end.
+overall_stats: none
+# Then request the following ranges.
+U+3040 ... U+309F: Hiragana
+U+30A0 ... U+30FF: Katakana

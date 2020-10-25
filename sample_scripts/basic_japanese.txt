@@ -1,0 +1,3 @@
+output_file_path: basic_japanese_list.txt
+U+3040 ... U+309F: Hiragana
+U+30A0 ... U+30FF: Katakana

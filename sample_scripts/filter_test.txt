@@ -1,0 +1,10 @@
+output_file_path: filter_test_filtered_charlist.txt
+# The `filter_add_files` merges the set of characters of each given file into the "filter" set of characters.
+filter_add_files: lorem_ipsum_*.txt Cargo.toml
+# The "filter" now includes all characters contained in "Cargo.toml", and also those from all files in the current directory which names start with "lorem_ipsum_" and end with ".txt".
+# The `filter_dump` command allows writing this set of characters into a single output file.
+filter_dump: filter_test_complete_charlist.txt
+# We can request character ranges as usual; this time, only the characters present in the "filter" will be written to the output file.
+U+0020 ... U+007F: Basic Latin
+U+3040 ... U+309F: Hiragana
+U+30A0 ... U+30FF: Katakana
